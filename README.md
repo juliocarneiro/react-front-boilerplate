@@ -8,6 +8,6 @@ estudos do curso react ninja do fernando daciuk
 npm install
 
 # start project
-webpack-dev-server #para o modulo de webpack
+npm start
 
 http://localhost:8080
