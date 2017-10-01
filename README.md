@@ -1,13 +1,20 @@
-# curso-react-ninja
-estudos do curso react ninja do fernando daciuk
+## React Front-end Boilerplate
 
-## Build Setup
+"gulp": "^3.9.1",
+"gulp-changed": "^3.1.0",
+"gulp-clean-css": "^3.9.0",
+"gulp-rename": "^1.2.2",
+"gulp-sass": "^3.1.0",
+"gulp-uglify": "^3.0.0",
+"react": "^16.0.0",
+"react-dom": "^16.0.0",
+"react-router": "^4.2.0",
+"react-router-dom": "^4.2.2",
+"react-scripts": "1.0.14"
 
-``` bash
-# install dependencies
-npm install
+## Install, compile & sass watch
 
-# start project
-npm start
-
-http://localhost:8080
+$ yarn install
+$ yarn start
+$ gulp
+$ yarn build

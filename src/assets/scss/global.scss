@@ -1,0 +1,34 @@
+$color1: grey;
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;    
+}
+header{
+    background:$color1;
+    h1{
+        margin:0;
+        padding:20px 0;
+        color: white;
+        font-weight: 400;
+    }
+    .menu{
+        
+        vertical-align: middle;
+        text-align: right;
+        padding:25px 0;
+        a{
+            color: white;
+            margin-right:10px;
+            &:last-of-type{
+                margin-right:0;
+            }
+        }
+    }
+}
+footer{
+    margin-top:20px;
+    border-top:1px solid $color1;
+    padding-top:20px;
+}
